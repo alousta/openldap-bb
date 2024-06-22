@@ -1,0 +1,510 @@
+    1  whoami
+    2  which oc
+    3  ls
+    4  cd Box
+    5  ls
+    6  ls -lrt
+    7  mkdir utilities
+    8  cd utilities/
+    9  wget -O rapid-lab-b2bi-newdb-6122-ocpodf-bastion.zip https://github.com/IBM/SalesEnablement-SterlingDataExchange-L3/blob/main/tools/rapid-lab-b2bi-newdb-6122-ocpodf-bastion.zip?raw=true
+   10  ls
+   11  unzip rapid-lab-b2bi-newdb-6122-ocpodf-bastion.zip 
+   12  sudo apt install unzip
+   13  ls
+   14  unzip rapid-lab-b2bi-newdb-6122-ocpodf-bastion.zip 
+   15  ls
+   16  apt install tree
+   17  sudo apt install tree
+   18  snap install tree
+   19  sudo snap install tree
+   20  tree .
+   21  ped
+   22  pwd
+   23  ./ocp-cli.sh 
+   24  oc whoami
+   25  oc --help
+   26  which oc
+   27  which helm
+   28  which kubectl
+   29  which podman
+   30  historyy
+   31  history
+   32  sudo install podman
+   33  snap install podman
+   34  sudo snap install podman
+   35  snap install --edge podman
+   36  sudo snap install --edge podman
+   37  sudo apt-get update
+   38  sudo apt-get -y install podman
+   39  which podman 
+   40  podman list
+   41  podman --help
+   42  podman images
+   43  podman login cp.icr.io
+   44  podman search cp.icr.io/*
+   45  podman images --filter="registry=cp.icr.io"
+   46  podman images --help
+   47  podman images --all
+   48  podman images --filter="registry=cp.icr.io"
+   49  oc login --token=sha256~CJgSQt6R2P4q_9quUOD003JhMWd5UW8Z09oybTqx2e0 --server=https://api.finprj2.ibm.gsc:6443
+   50  oc get po
+   51  oc status
+   52  oc get files
+   53  oc get po
+   54  oc get all
+   55  oc get event | grep error
+   56  oc get nodes
+   57  oc get nodes -
+   58  oc get sa
+   59  oc project ibm-spectrum-scale-ns
+   60  oc project ibm-spectrum-scale
+   61  oc get sa
+   62  oc get role
+   63  pwd
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd mnt
+   68  ls
+   69  cd c
+   70  ls
+   71  sudo ls
+   72  ls
+   73  cd ..
+   74  cd d
+   75  ls
+   76  cd 001_ibm/
+   77  ls
+   78  cd 001_mft/
+   79  ls
+   80  mkdir -p icc
+   81  ls
+   82  cd 002_icc/
+   83  ls
+   84  which git
+   85  git clone https://github.com/alousta/sterlingcontainers.git
+   86  ls
+   87  git status
+   88  cd sterlingcontainers/
+   89  git status
+   90  git branches
+   91  git --help
+   92  git branch
+   93  git switch --help
+   94  git switch xx
+   95  oc login --token=sha256~zAijJrwHZooyvo8b5U47inpgdZ0kvTvhEFVLH1gSGd0 --server=https://api.finprj2.ibm.gsc:6443
+   96  oc project fusion
+   97  oc get projects | grep fusion
+   98  oc project ibm-spectrum-fusion-ns
+   99  oc get volume
+  100  oc get volumesnapshotclass
+  101  oc get all
+  102  ssh 172.27.35.65
+  103  ssh root@172.27.35.65
+  104  oc login --token=sha256~QIJVWRO-lM6ipEdFTRJwtNP4sf4iCkET5oIatrcK55o --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  105  oc project icc
+  106  helm list
+  107  helm get values -a icc630 -o yaml > valuesICCORIG.yaml
+  108  vim valuesICCORIG.yaml 
+  109  helm diff --help
+  110  helm --help
+  111  oc adm policy --help
+  112  oc adm policy scc-subject-review --help
+  113  oc get scc
+  114  ls
+  115  pwd
+  116  ls
+  117  cd mnt
+  118  ls
+  119  cd c
+  120  ls
+  121  cd Users
+  122  cd ADOLFOLOUSTAUNAU/
+  123  ls
+  124  cd Box
+  125  ls -l
+  126  ls
+  127  helm create icc63
+  128  helm create man
+  129  man helm
+  130  helm --help
+  131  helm show .
+  132  helm show values
+  133  helm list
+  134  helm show values icc630
+  135  helm list
+  136  helm chart --help
+  137  helm show chart
+  138  helm show chart icc630
+  139  helm show chart .
+  140  pwd
+  141  ls
+  142  cd icc63/
+  143  ls
+  144  helm show chart .
+  145  helm show chart . --help
+  146  helm dependency --help
+  147  helm dependency list
+  148  pwd
+  149  ls
+  150  cd
+  151  pwd
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd ..
+  156  ls
+  157  cd mnt
+  158  cd c
+  159  ls
+  160  cd zz_temp
+  161  ls
+  162  cd 002_sample_helm/
+  163  ls
+  164  helm list
+  165  helm get values -a icc630 > values.icc.630.yaml
+  166  ls
+  167  git add .
+  168  cd datamon-deployer/
+  169  ls
+  170  cd cp4d/
+  171  ls
+  172  cd cp4d-pipeline-run/
+  173  ls
+  174  oc apply -f 3rd_cd-install-pipeline.yaml 
+  175  oc login --token=sha256~duxT1oQ2FBg6CorW24hWUreJnp_Cg6dfKz7HKBo0uUU --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  176  oc apply -f 3rd_cd-install-pipeline.yaml 
+  177  git add .
+  178  git commit -m change4
+  179  git config --global user.email "alousta@us.ibm.com"
+  180  git commit -m change4
+  181  git config --global "alousta@us.ibm.com"
+  182  git config --global alousta@us.ibm.com
+  183  git config alousta@us.ibm.com
+  184  git config --global --list
+  185  git commit -m change4
+  186  git status
+  187  git add .
+  188  git commit -m c1
+  189  git config --global user.name "alousta"
+  190  git config --global user.email "alousta@us.ibm.com"
+  191  git commit -m c1
+  192  git push
+  193  oc apply -f 3rd_cd-install-pipeline.yaml 
+  194  git add .
+  195  git commit -m addjames
+  196  cd ..
+  197  git add .
+  198  git commit -m addjames
+  199  git push
+  200  helm template --help
+  201  oc login --token=sha256~Q3mAsgf2WOzbLB9sUQKZ8VbKS1c5IZqOCEAHBjD8miI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  202  oc project icc
+  203  oc get po
+  204  helm create 002_sample_helm
+  205  apt install conda
+  206  sudo apt install conda
+  207  python -m venv oreilly-env
+  208  python3 -m venv oreilly-env
+  209  apt install phyton
+  210  sudo apt install phyton
+  211  conda create -n oreilly-env python=3.10
+  212  git clone https://github.com/alousta/oreilly_live_training_llm_apps.git
+  213  ls
+  214  ./Anaconda3-2024.02-1-Linux-x86_64.sh 
+  215  which python
+  216  conda create -n oreilly-env python=3.10
+  217  which conda
+  218  which phython
+  219  conda create -n oreilly-env python=3.10
+  220  conda activate oreilly-env
+  221  pwd
+  222  cd oreilly_live_training_llm_apps/
+  223  cd notebooks/
+  224  ls
+  225  pip install -r requirements.txt
+  226  clear
+  227  pwd
+  228  ls
+  229  cd ,,
+  230  cd ..
+  231  ls
+  232  tree 001_cp4/
+  233  pwd
+  234  ls
+  235  cd 001_cp4
+  236  ls
+  237  git init
+  238  git add .
+  239  git remote add origin https://github.com/alousta/cp4_install_scripts.git
+  240  git push origin master
+  241  git commit -m cp4data1
+  242  git push origin master
+  243  git push
+  244  git push origin master
+  245  pwd
+  246  cd ..
+  247  ls
+  248  cd 001_cp4/
+  249  ls
+  250  cd oc
+  251  oc version
+  252  ls
+  253  oc version
+  254  which oc
+  255  ls -l
+  256  cp oc /usr/local/bin/oc/.
+  257  cp oc /usr/local/bin/.
+  258  oc version
+  259  which oc
+  260  cd ..
+  261  ls
+  262  ls 001_cp4Data/
+  263  la -l
+  264  cd 001_cp4Data/
+  265  ls
+  266  ls -l
+  267  oc login --token=sha256~9OOwmtdgmzWp3wH0bGQTn65hlcjr2WRNgHrZL-JdTZk --server=https://c104-e.us-east.containers.cloud.ibm.com:32226oc login --token=sha256~9OOwmtdgmzWp3wH0bGQTn65hlcjr2WRNgHrZL-JdTZk --server=https://c104-e.us-east.containers.cloud.ibm.com:32226
+  268  oc login --token=sha256~9OOwmtdgmzWp3wH0bGQTn65hlcjr2WRNgHrZL-JdTZk --server=https://c104-e.us-east.containers.cloud.ibm.com:32226
+  269  oc cluster-info | grep server
+  270  oc cluster-info
+  271  oc status
+  272  ls
+  273  ./cpd-install.sh 
+  274  oc status
+  275  cd zzz_CLI_CP4D/
+  276  ls
+  277  cd cpd-cli-linux-EE-13.1.4/
+  278  ls
+  279  cd cpd-cli-linux-EE-13.1.4-109/
+  280  ls
+  281  ls -l
+  282  oc login --token=sha256~FyFVJ6lfDoZ2Vy0-nsxJg3TJyGAn6sQ39Rhc1-fGVU4 --server=https://c100-e.eu-gb.containers.cloud.ibm.com:30086
+  283  oc cluster-info
+  284  pwd
+  285  ls
+  286  cd .. 
+  287  cd ..
+  288  ls
+  289  cd ..
+  290  ls
+  291  pwd
+  292  ls
+  293  ls -l
+  294  pwd
+  295  ls
+  296  oc status
+  297  oc version
+  298  ls
+  299  ./cpd-install.sh 
+  300  pwd
+  301  ls
+  302  which cpd-cli
+  303  echo $PATH
+  304  cd zzz_CLI_CP4D/
+  305  ls 
+  306  cd cpd-cli-linux-EE-13.1.4/
+  307  ls
+  308  cd cpd-cli-linux-EE-13.1.4-109/
+  309  ls
+  310  pwd
+  311  PATH=$PATH:/mnt/d/001_ibm/001_cp4/001_cp4Data/zzz_CLI_CP4D/cpd-cli-linux-EE-13.1.4/cpd-cli-linux-EE-13.1.4-109
+  312  which cpd-cli
+  313  cd ..
+  314  ls
+  315  ./cpd-install.sh 
+  316  pwd
+  317  ls
+  318  ls -la cpd-cli-workspace/olm-utils-workspace/work/ 
+  319  ls -la cpd-cli-workspace/olm-utils-workspace/work/cpfs_scripts
+  320  cp install-options.yaml cpd-cli-workspace/olm-utils-workspace/work/install-options.yaml
+  321  ls -la cpd-cli-workspace/olm-utils-workspace/work/cpfs_scripts
+  322  ls -la cpd-cli-workspace/olm-utils-workspace/work/offline/4.8.4/
+  323  ls cpd-cli-workspace/olm-utils-workspace/work/olm-utils-ansible-log/ 
+  324  pwd
+  325  ls
+  326  mkdir cpd-cli-workspace/olm-utils-workspace/work/offline/4.8.4/.ibm-pak
+  327  pd-cli manage apply-olm --release=${VERSION} --cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} --components=${COMPONENTS}
+  328  cpd-cli manage apply-olm --release=${VERSION} --cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} --components=${COMPONENTS}
+  329  source cpd.env
+  330  echo cpd-cli manage apply-olm --release=${VERSION} --cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} --components=${COMPONENTS}cpd-cli manage apply-olm --release=${VERSION} --cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} --components=${COMPONENTS}
+  331  cpd-cli manage apply-olm --release=${VERSION} --cpd_operator_ns=${PROJECT_CPD_INST_OPERATORS} --components=${COMPONENTS}
+  332  which podman
+  333  podman ps
+  334  podman image
+  335  podman image list
+  336  oc login --token=sha256~CvDzeg2MWVfBSh8DYg1TJMu7DPuDQt9Mvpd9OXjEsuU --server=https://c114-e.us-south.containers.cloud.ibm.com:31977
+  337  oc project freitasb-b2bi
+  338  oc get po
+  339  helm list
+  340  helm get values -a b2bi62 > -o yaml b2bi62.yaml
+  341  helm get values b2bi62 -a > -o yaml b2bi62.yaml
+  342  helm get values --help
+  343  helm get values b2bi62 -a  -o yaml > b2bi62.yaml
+  344  helm list
+  345  oc get po
+  346  helm list
+  347  ls
+  348  cd ibm-b2bi-prod-3.0.0/
+  349  ls
+  350  cd ibm-b2bi-prod/
+  351  ls
+  352  helm upgrade b2bi62 .
+  353  oc login --token=sha256~xlda4zbl4FNzoNnWQIFpcqbZcnT3MBdewIZQ2RyAb08 --server=https://api.finprj2.ibm.gsc:6443
+  354  oc adm policy add-role-to-user admin alousta --namespace cpd --rolebinding-name="cpd-instance-admin-rbac"
+  355  oc adm policy add-role-to-user admin bberendt --namespace cpd --rolebinding-name="cpd-instance-admin-rbac"
+  356  oc new-app --help
+  357  oc login --token=sha256~WPGt9ucR6pLmFkWdEAUjOh-wRy79xx3LHZ2KFH7UkD4 --server=https://c104-e.us-east.containers.cloud.ibm.com:32226
+  358  oc get co --help
+  359  oc get co
+  360  oc get mp --help
+  361  oc get mp
+  362  oc get mcp
+  363  oc get mcp --help
+  364  oc describe co monitoring >> CS3936086.txt
+  365  oc describe co network >> CS3936086.txt
+  366  oc get pods -n openshift-monitoring >> CS3936086.txt
+  367  oc get pods -A|grep network  >> CS3936086.txt
+  368  ssh root@172.27.35.10
+  369  oc login --token=sha256~Z3ETx7fdElh2_0MldWVm0vt8xthZ6X6KAHszmx6heRQ --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  370  oc get templates -n openshift
+  371  oc describe template/mysqjl-ephemeral -n openshift
+  372  oc describe template/mysql-ephemeral -n openshift
+  373  oc project citi500
+  374  oc new-app --help
+  375  oc get templates -n openshift | grep mysql
+  376  oc new-app --help | grep emplate
+  377  oc new-app --name mysql-sample --template openshift/mysql-ephemeral
+  378  oc get template/mysql-ephemeral -o yaml -n openshift > mysql-ephemeral-template.yaml
+  379  oc new-app --name mysql-sample --template openshift.mysql-ephemeral
+  380  oc get po
+  381  oc new-app --name mysql-ephemeral -f mysql-ephemeral-template.yaml --param DATABASE_SERVICE_NAME=adolfo --param MYSQL_DATABASE=loustaunau
+  382  history
+  383  history | grep 172
+  384  ssh 172.27.35.65
+  385  ssh root@172.27.35.65
+  386  ssh root@172.27.35.10
+  387  oc get po
+  388  history
+  389  oc api-resources
+  390  git clone https://github.com/alousta/openldap.git
+  391  ls
+  392  pwd
+  393  oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  394  oc login --token=sha256~NB-4dgyo9HpgGqEQJjnXfLxy1R2nA5X52dVKUcRXfkI --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  395  which podman
+  396  oc get p0o
+  397  oc get po
+  398  oc set volume dc/openldap --add --name=ldap-data --mount-path=/var/lib/ldap -t pvc --claim-name=ldap-data --claim-size=1G
+  399  oc set volume dc/openldap --add --name=ldap-config --mount-path=/etc/ldap/slapd.d -t pvc --claim-name=ldap-config --claim-size=1G
+  400  oc get po
+  401  oc start-build --help
+  402  oc start-build openldap
+  403  oc get dc
+  404  oc start-build dc/openldap
+  405  podman --help
+  406  podman images
+  407  oc is
+  408  oc get is
+  409  oc new-project openldap
+  410  oc import --help
+  411  oc whoami -t
+  412  oc get route -n openshift-image-registry
+  413  oc import-image --help
+  414  oc import-image openldap --from=icr.io/cpopen/cpd/olm-utils-v2:latest --confirm
+  415  oc new-app --name openldap image-registry.openshift-image-registry.svc:5000/openldap/openldap
+  416  oc get po
+  417  oc get bc
+  418  oc get dc
+  419  oc expose svc/openldap
+  420  oc expose dc/openldap
+  421  oc expose route/openldap
+  422  oc creat route edge openldap --help
+  423  oc create route edge openldap --help
+  424  oc get svc
+  425  oc create route edge openldap --service openldap
+  426  oc get route
+  427  openldap-openldap.citi-mft-poc-205178d0207c7d1d1e47f721c61aabfd-0000.eu-de.containers.appdomain.cloud
+  428  oc login --token=sha256~fHtcfN6XTLKHbS6NHxiS8mho4RVqex_Sk_wOV_uzJJg --server=https://api.finprj2.ibm.gsc:6443
+  429  oc get po
+  430  oc get svc
+  431  oc expose svc/openldap
+  432  oc get route
+  433  oc create route edge openldap_secure --service openldap
+  434  oc create route edge openldap-secure --service openldap
+  435  oc get route
+  436  oc get endpoints
+  437  oc describe svc/openldap
+  438  oc describe route/openldap
+  439  oc login --token=sha256~_GCPI_rBLHEKok6GOQzVEEnQN3Q9bR1TXk53klsEjPA --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  440  oc get po
+  441  oc get svc
+  442  oc get route
+  443  curl -s openldap-openldap.citi-mft-poc-205178d0207c7d1d1e47f721c61aabfd-0000.eu-de.containers.appdomain.cloud
+  444  clear
+  445  oc get all
+  446  podman image
+  447  podman images
+  448  oc get route
+  449  oc set volume --help
+  450  which git
+  451  git clone https://github.com/alousta/openldap.git
+  452  docker-compose up
+  453  sudo apt  install docker-compose
+  454  docker-compose up
+  455  pwd
+  456  ls
+  457  cd openldap/
+  458  ls
+  459  docker-compose up
+  460  sudo docker-compose up
+  461  ls
+  462  oc login --token=sha256~4gY-w_ctnTi86t1yvouFqQoJdNazZwJURD8XuJAE0Ig --server=https://c100-e.eu-de.containers.cloud.ibm.com:30681
+  463  history
+  464  history | grep login
+  465  podman login -u aloustan -p Doggreeen30 docker.io
+  466  podman login -u aloustan -p Doggreen30 docker.io
+  467  podman images
+  468  ls
+  469  podman --help
+  470  podman ps -a
+  471  oc import-image
+  472  oc import-image --help
+  473  podman build -t docker.io/aloustan/openldap_bootstrap .
+  474  podman images
+  475  podman push --help
+  476  podman images
+  477  podman push docker.io/aloustan/openldap_bootstrap
+  478  oc statues
+  479  oc status
+  480  oc new-project openldap-b
+  481  oc create sa openldap
+  482  oc adm policy add-scc-to-user anyuid system:serviceaccount:openldap:openldap
+  483  oc new-app --name openldap docker.io/aloustan/openldap_bootstrap -e LDAP_ADMIn_PASSWORD=anypassword
+  484  oc set env --list
+  485  oc set env --help
+  486  oc get deploy
+  487  oc get po
+  488  oc get dc
+  489  oc set env deploy/openldap --list
+  490  oc set env deploy/openldap LDAP_ADMIN_PASSWORD=password1
+  491  oc set env deploy/openldap --list
+  492  var='{"spec":{"strategy":{"type":"Recreate"},"template":{"spec":{"serviceAccountName":"openldap"}}}}'  | ConvertTo-Json
+  493  sudo apt install ConvertTo-Json
+  494  sudo apt update
+  495  which python3
+  496  python3 -c "import json; var='{\"spec\":{\"strategy\":{\"type\":\"Recreate\"},\"template\":{\"spec\":{\"serviceAccountName\":\"openldap\"}}}}'; data = json.loads(var); print(json.dumps(data))"
+  497  oc patch dc/openldap -p $var
+  498  echo $var
+  499  oc patch --help
+  500  oc get dc
+  501  oc get all
+  502  oc patch deploy/openldap -p $var
+  503  echo "$var"
+  504  echo $var
+  505  var="{\"spec\":{\"strategy\":{\"type\":\"Recreate\"},\"template\":{\"spec\":{\"serviceAccountName\":\"openldap\"}}}}"
+  506  echo $var
+  507  oc patch deploy/openldap -p $var
+  508  oc edit deploy/openldap
+  509  oc delete project/openldap-b
+  510  history > history.txt
